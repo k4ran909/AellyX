@@ -351,7 +351,7 @@ C_Bo-----------------------------------------------------------C_W""")
 	def upgrade():
 		try:
 			chdir("/tmp")
-			system("sudo git clone https://github.com/anonAELLY/AellyX.git")
+			system("sudo git clone https://github.com/k4ran909/AellyX.git")
 			chdir("/tmp/AellyX/")
 			system("sudo bash ./install_to_bin.sh")
 			print("[i] Deleting the temporary stored AellyX...")

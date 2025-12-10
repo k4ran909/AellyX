@@ -1,6 +1,6 @@
 # AellyX
 
-<a style="color: white;" href="https://github.com/anonAELLY/AellyX/blob/master/INSTALLATION.md#lazy-installer">Advanced</a> - <a style="color: white;" href="https://github.com/anonAELLY/AellyX/blob/master/INSTALLATION.md#or-start-your-unix-terminal-and-type-in-following">Expert</a> - <a style="color: white;" href="https://github.com/anonAELLY/AellyX/blob/master/INSTALLATION.md#other-operating-systems">Other operating systems</a> - <a style="color: white;" href="https://github.com/anonAELLY/AellyX/blob/master/INSTALLATION.md#uninstall">Uninstall</a>
+<a style="color: white;" href="https://github.com/k4ran909/AellyX/blob/main/INSTALLATION.md#lazy-installer">Advanced</a> - <a style="color: white;" href="https://github.com/k4ran909/AellyX/blob/main/INSTALLATION.md#or-start-your-unix-terminal-and-type-in-following">Expert</a> - <a style="color: white;" href="https://github.com/k4ran909/AellyX/blob/main/INSTALLATION.md#other-operating-systems">Other operating systems</a> - <a style="color: white;" href="https://github.com/k4ran909/AellyX/blob/main/INSTALLATION.md#uninstall">Uninstall</a>
 
 ## Lazy installer
 (Advanced)
@@ -9,7 +9,7 @@ To install AellyX enter the following command:
 
 (You might need to install curl)
 
-```curl -s https://raw.githubusercontent.com/anonAELLY/AellyX/master/install.sh | sudo bash -s```
+```curl -s https://raw.githubusercontent.com/k4ran909/AellyX/main/install.sh | sudo bash -s```
 
 ![render1604868703436](https://user-images.githubusercontent.com/36562445/98484164-d0ec5300-220d-11eb-8fe5-0c9d4d2103e6.gif)
 
@@ -19,7 +19,7 @@ To install AellyX enter the following command:
 
 ```sudo pkg/pacman/apt-get/brew install git python3 nmap python3-setuptools bluez dsniff iputils-ping aircrack-ng```
 
-```git clone https://github.com/anonAELLY/AellyX/```
+```git clone https://github.com/k4ran909/AellyX/```
 
 ```cd AellyX```
 

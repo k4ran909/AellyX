@@ -23,7 +23,7 @@ if [ -f "/etc/debian_version" ]; then
         echo "[i] We will now install psmisc..."
         sudo apt-get install -y psmisc > /dev/null 2>&1 || echo "[!] Could not install psmisc."
         echo "[i] We will now download AellyX..."
-        sudo git clone https://github.com/anonAELLY/AellyX.git > /dev/null 2>&1 || echo "[!] Could not download AellyX."
+        sudo git clone https://github.com/k4ran909/AellyX.git > /dev/null 2>&1 || echo "[!] Could not download AellyX."
         cd AellyX > /dev/null 2>&1
         echo "[i] We will now install requirements..."
         sudo pip3 install -r requirements.txt  > /dev/null 2>&1 || echo "[!] Could not install the requirements."
@@ -49,7 +49,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         sudo brew install dsniff > /dev/null 2>&1  || echo "[!] Could not install dsniff."
         # psmisc already preinstalled for sure.
         echo "[i] We will now download AellyX..."
-        sudo git clone https://github.com/anonAELLY/AellyX.git > /dev/null 2>&1  || echo "[!] Could not download AellyX."
+        sudo git clone https://github.com/k4ran909/AellyX.git > /dev/null 2>&1  || echo "[!] Could not download AellyX."
         cd AellyX > /dev/null 2>&1
         echo "[i] We will now install requirements..."
         sudo pip3 install -r requirements.txt  > /dev/null 2>&1 || echo "[!] Could not install the requirements."
@@ -74,7 +74,7 @@ elif [ -f "/etc/arch-release" ]; then  # FIXME
         echo "[i] We will now install psmisc..."
         sudo pacman --noconfirm -S psmisc > /dev/null 2>&1 || echo "[!] Could not install psmisc."
         echo "[i] We will now download AellyX..."
-        sudo git clone https://github.com/anonAELLY/AellyX.git > /dev/null 2>&1  || echo "[!] Could not download AellyX."
+        sudo git clone https://github.com/k4ran909/AellyX.git > /dev/null 2>&1  || echo "[!] Could not download AellyX."
         cd AellyX > /dev/null 2>&1
         echo "[i] We will now install requirements..."
         sudo pip3 install -r requirements.txt  > /dev/null 2>&1 || echo "[!] Could not install the requirements."
@@ -85,7 +85,7 @@ elif [[ "$OSTYPE" == "win32" ]]; then
 else
         echo "[!] We could not detect your system."
         echo "[i] Please install some things manually"
-        git clone https://github.com/anonAELLY/AellyX.git > /dev/null 2>&1 || echo "[!] Please install git"
+        git clone https://github.com/k4ran909/AellyX.git > /dev/null 2>&1 || echo "[!] Please install git"
         cd AellyX
         python3 --help > /dev/null 2>&1 || echo "[!] Please install python3."
         command -v ping > /dev/null 2>&1 || echo "[!] Please install ping."

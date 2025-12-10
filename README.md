@@ -1,6 +1,6 @@
 # AellyX Toolkit
 
-<img src="https://img.shields.io/badge/Python-3.8-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"> <a href="https://anonaelly.github.io/AellyX/INSTALLATION"><img src="https://img.shields.io/badge/Download-Now-green"></a>
+<img src="https://img.shields.io/badge/Python-3.8-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"> <a href="https://k4ran909.github.io/AellyX/INSTALLATION"><img src="https://img.shields.io/badge/Download-Now-green"></a>
 
 **AellyX is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python(3.8).**
 
@@ -29,17 +29,17 @@ _I archived this repository because I currently do not want to work on it._
 Just enter the following line to install AellyX on Linux.
 
 ```bash
-curl -s https://raw.githubusercontent.com/anonAELLY/AellyX/master/install.sh | sudo bash -s
+curl -s https://raw.githubusercontent.com/k4ran909/AellyX/main/install.sh | sudo bash -s
 ```
 
-<a style="color: grey" href="https://anonaelly.github.io/AellyX/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
+<a style="color: grey" href="https://k4ran909.github.io/AellyX/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
 
 
-<a style="color: grey" href="https://github.com/anonAELLY/AellyX/blob/master/README.md#info-and-warning"><b>Terms of Use</b></a>
+<a style="color: grey" href="https://github.com/k4ran909/AellyX/blob/main/README.md#info-and-warning"><b>Terms of Use</b></a>
 
-<a style="color: grey" href="https://github.com/anonAELLY/AellyX/blob/master/LICENSE">Licence</a>
+<a style="color: grey" href="https://github.com/k4ran909/AellyX/blob/main/LICENSE">Licence</a>
 
-<a style="color: grey" href="https://github.com/anonAELLY/AellyX/projects/1">Project status/ToDo</a>
+<a style="color: grey" href="https://github.com/k4ran909/AellyX/projects/1">Project status/ToDo</a>
 
 <a style="color: grey" href="https://github.com/anonAELLY/CLIF/">CLIF Framework</a>
 
